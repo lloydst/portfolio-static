@@ -1,0 +1,13 @@
+
+// block
+.header {
+    background-color: white;
+    // not the best way
+    &__element{
+        background-color: #fff;
+        //even worse
+        &--modifier {
+            background-color: #fff;
+        }
+    }
+}

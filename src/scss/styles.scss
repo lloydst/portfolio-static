@@ -3,16 +3,16 @@
 /**
  * 3rth party
  */
- @import './scss/_lib/';
+ @import 'lib/index';
 /**
  * reset
  */
-@import './scss/_base/';
+ @import 'base/index';
 /**
  * layout
  */
- @import './scss/_layout/';
+ @import 'layout/index';
  /**
- * components
+ * pages
  */
- @import './scss/_layout/';
+ @import 'pages/index';
