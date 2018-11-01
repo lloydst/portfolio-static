@@ -1,13 +1,10 @@
 
 // block
 .header {
-    background-color: white;
-    // not the best way
-    &__element{
-        background-color: #fff;
-        //even worse
-        &--modifier {
-            background-color: #fff;
-        }
-    }
+	background-color: white;
+	margin: 1em;
+	@include bp (laptop) { // anything bigger then laptop < MOBILE FIRST JUST EXAMPLE
+		margin-left:20%;
+		margin-right: 20%;
+	}
 }
