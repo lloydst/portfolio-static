@@ -1,10 +1,10 @@
 
-// block
-.header {
-	background-color: white;
-	margin: 1em;
-	@include bp (laptop) { // anything bigger then laptop < MOBILE FIRST JUST EXAMPLE
-		margin-left:20%;
-		margin-right: 20%;
-	}
-}
+// // block
+// .header {
+// 	background-color: white;
+// 	margin: 1em;
+// 	@include bp (laptop) { // anything bigger then laptop < MOBILE FIRST JUST EXAMPLE
+// 		margin-left:20%;
+// 		margin-right: 20%;
+// 	}
+// }
