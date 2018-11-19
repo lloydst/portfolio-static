@@ -2,8 +2,9 @@
 	"name": "portfolio",
 	"version": "0.0.0",
 	"scripts": {
-		"githubpages": "ng build --prod --output-path docs --base-href https://lloydst.github.io/portfolio-static",
+		"githubpages": "ng build --prod --output-path docs --base-href https://lloydst.github.io/portfolio-static && npm run print",
 		"ng": "ng",
+		"print":"node print.js",
 		"start": "ng serve",
 		"build": "ng build",
 		"test": "ng test",

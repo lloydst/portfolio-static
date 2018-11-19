@@ -1,0 +1,1 @@
+console.info ( 'dont forget to copy the index out of the docs folder and rename it too 404.html');
