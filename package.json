@@ -2,7 +2,7 @@
 	"name": "portfolio",
 	"version": "0.0.0",
 	"scripts": {
-		"githubpages": "ng build --prod --output-path docs",
+		"githubpages": "ng build --prod --output-path docs --base-href portfolio-static",
 		"ng": "ng",
 		"start": "ng serve",
 		"build": "ng build",
