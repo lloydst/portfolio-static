@@ -2,7 +2,7 @@
 	"name": "portfolio",
 	"version": "0.0.0",
 	"scripts": {
-		"githubpages": "ng build --prod --output-path docs --base-href /portfolio-static/ && npm run print",
+		"githubpages": "ng build --prod --output-path docs --base-href /portfolio-static && npm run print",
 		"ng": "ng",
 		"print":"node print.js",
 		"start": "ng serve",
