@@ -1,6 +1,7 @@
 # Portfolio
 ## github pages
 for deployment on github pages use `npm run githubpages`, then copy the index.html paste it in the same folder and rename it too 404.html.
+then do the git add, commit and push thing.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 
