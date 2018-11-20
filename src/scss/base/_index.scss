@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'shapes';
 
 body {
 	display: block;
@@ -44,4 +45,9 @@ h1  {
 h2  {
 	font-size: grid(.5);
 	@include min-("font-size", .5, 24);
+}
+
+a.link {
+	text-decoration:none;
+	font-weight: 400;
 }

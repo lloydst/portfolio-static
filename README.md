@@ -1,6 +1,6 @@
 # Portfolio
 ## github pages
-the docs folder is basicly the dist folder but due to how githum pages work the folder had to be renamed.
+for deployment on github pages use `npm run githubpages`, then copy the index.html paste it in the same folder and rename it too 404.html.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 
