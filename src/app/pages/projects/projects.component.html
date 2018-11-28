@@ -1,7 +1,11 @@
 <div>
 	<section class="row projects">
 		<div class="column small-22 medium-20 large-10 projects__column">
-			<p>Will display projects in the future</p>
+			<div *ngFor="let git of repo">
+				<h2>{{git.name}}</h2>
+				<p>{{initialreadmearray[git]}}</p>
+				<a [href]="git.html_url" class="link">Go to ></a>
+			</div>
 			<!-- might be an idea to get my projects from the github api and display them instead of hardcoding them in --> 
 		</div>
 	</section>

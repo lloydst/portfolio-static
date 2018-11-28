@@ -3,4 +3,14 @@
 	&__column {
 		margin: grid(1 4 1);
 	}
+	.checked {
+		color: orange;
+	}
+	.align-right {
+		float: left;
+	}
+	.align-right:last-child {
+		
+		padding-right: 2em;
+	}
 }

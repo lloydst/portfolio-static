@@ -9,7 +9,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
-
+import { GithubService } from './github.service';
+import {HttpClientModule} from '@angular/common/http'
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,10 +22,11 @@ import { ProjectsComponent } from './pages/projects/projects.component';
     ProjectsComponent
   ],
   imports: [
-    BrowserModule,
+	BrowserModule,
+	HttpClientModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [GithubService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
